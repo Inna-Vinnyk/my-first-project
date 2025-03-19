@@ -132,3 +132,14 @@
 //   console.log(`Count: ${count}`);
 //   count += 1;
 // } while (count < 5);
+
+// Цикл и работа с debugger (1:35:54 Урок Модуль 2.Розгалуження і цикли/ 10 січня)
+console.log("Before");
+
+debugger;
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+console.log("After");
